@@ -1,0 +1,25 @@
+.container {
+  width: 1136px;
+  margin: 0 auto;
+  /* background-color: beige; */
+  font-family: "Raleway", sans-serif;
+}
+.btn {
+  display: inline-block;
+  background: #2a7ae4;
+  width: auto;
+  /* display: flex; */
+  /* flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  padding: 16px;
+}
+.btn a {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  text-decoration: none;
+}

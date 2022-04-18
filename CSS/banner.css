@@ -1,0 +1,30 @@
+.banner {
+  background: url("../IMG/banner-image.png") no-repeat;
+  width: 100%;
+  min-width: 1136px;
+  height: 352px;
+  margin: 0 auto;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 32px;
+}
+.banner-titulo {
+  font-family: "Raleway", sans-serif;
+  font-size: 52px;
+  color: #ffffff;
+  line-height: 61px;
+  font-weight: 700;
+  margin: 16px 0px;
+}
+.banner-subtitulo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff;
+  line-height: 26px;
+  margin: 16px 0px;
+}
+
