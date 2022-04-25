@@ -1,0 +1,11 @@
+.login {
+  background: var(--color-gris-claro);
+  /* background: red; */
+  padding: 91px 0;
+  margin: 0;
+}
+.login-formulario {
+  width: 423px;
+  display: flex;
+  flex-direction: column;
+}

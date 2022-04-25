@@ -9,9 +9,10 @@
   flex-direction: column;
   justify-content: flex-end;
   padding-bottom: 32px;
+   margin-bottom: 64px;
 }
 .banner-titulo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-family);
   font-size: 52px;
   color: #ffffff;
   line-height: 61px;
@@ -19,7 +20,7 @@
   margin: 16px 0px;
 }
 .banner-subtitulo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-family);
   font-style: normal;
   font-weight: 700;
   font-size: 22px;

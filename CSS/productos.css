@@ -1,6 +1,5 @@
-
 .galeria-secc {
-    height: 100%;
+  height: 100%;
 }
 .galeria-secc-titulo {
   width: 100%;
@@ -8,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
-  margin-top: 64px;
+  /* margin-top: 64px; */
 }
 .galeria-producto {
   width: 176px;
@@ -16,10 +15,10 @@
 .galeria-secc-titulo_nombre {
   font-size: 32px;
   font-weight: 700;
-  color: #464646;
+  color: var(--color-gris);
 }
 .galeria-secc-titulo_verTodo a {
-  color: #2a7ae4;
+  color: var(--color-azul);
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
@@ -27,25 +26,26 @@
 .galeria-secc-contenido {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 16px
+  gap: 16px;
 }
 .producto-titulo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    color: #464646;
-    margin: 8px 0;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--color-gris);
+  margin: 8px 0;
 }
-.producto-subtitulo, .producto-link {
-    font-weight: 700;
-    font-size: 16px;
-    color: #464646;
-    margin: 8px 0;
+.producto-subtitulo,
+.producto-link {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-gris);
+  margin: 8px 0;
 }
 .producto-link a {
-    font-weight: 700;
-    font-size: 16px;
-    color: #2A7AE4;
-    margin: 8px 0;
-    text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-azul);
+  margin: 8px 0;
+  text-decoration: none;
 }

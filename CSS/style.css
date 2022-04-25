@@ -1,28 +1,44 @@
+@import url(_reset.css);
+@import url(_variables.css);
+
 body {
   margin: 0;
 }
 .container {
   width: 1136px;
   margin: 0 auto;
-  /* background-color: beige; */
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-family);
+}
+.centrado {
+  text-align: center;
 }
 .btn {
   display: inline-block;
-  background: #2a7ae4;
+  background: var(--color-azul);
   width: auto;
-  /* display: flex; */
-  /* flex-direction: row;
-  justify-content: center;
-  align-items: center; */
   padding: 16px;
 }
 .btn a {
-  font-family: "Raleway";
+  font-family: var(--font-family);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 16px;
   line-height: 19px;
   color: #ffffff;
   text-decoration: none;
+}
+.formulario-titulo {
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.formulario-campo {
+  width: 100%;
+  height: 56px;
+  margin-bottom: 16px;
+  background: #ffffff;
+  border-radius: 4px;
+  border: none;
+  border-bottom: #c8c8c8 1px solid;
 }
