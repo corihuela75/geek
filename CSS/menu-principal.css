@@ -31,9 +31,14 @@
   line-height: 40px;
   padding-left: 12px;
 }
-.lupa {
+.lupa1 {
   width: 20px;
   margin-left: -70px;
+  opacity: 0.5;
+}
+.lupa2 {
+  width: 20px;
+  display: none;
   opacity: 0.5;
 }
 .btn-inicio {

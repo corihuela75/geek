@@ -1,0 +1,88 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* style.css */
+
+  .container {
+    width: 100%;
+  }
+  .buscador {
+    display: none;
+  }
+
+  /* menu-principal.css */
+
+  .lupa1 {
+    display: none;
+  }
+  .lupa2 {
+    display: inline;
+    margin: 0 10px;
+  }
+
+  /* banner.css */
+
+  .banner {
+    min-width: 0;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 16px;
+  }
+  .banner-promo {
+    padding-left: 16px;
+  }
+
+  .banner-titulo {
+    font-size: 3rem;
+  }
+  .banner-subtitulo {
+    font-size: 1.75rem;
+  }
+
+  /* porductos.css */
+
+  .galeria-secc-contenido {
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .galeria-producto {
+    width: 100%;
+  }
+
+  /* rodapie.css */
+
+  .rodapie {
+    padding: 64px 16px;
+  }
+  .rodapie-interno {
+    flex-direction: column;
+    align-items: center;
+  }
+  .rodapie-navegacion-lista {
+    text-align: center;
+  }
+  .rodapie-formulario {
+    width: 100%;
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  ...;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  ...;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  ...;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  ...;
+}

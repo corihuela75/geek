@@ -9,13 +9,11 @@
   flex-direction: column;
   justify-content: flex-end;
   padding-bottom: 32px;
-   margin-bottom: 64px;
 }
 .banner-titulo {
   font-family: var(--font-family);
-  font-size: 52px;
+  font-size: 4rem;
   color: #ffffff;
-  line-height: 61px;
   font-weight: 700;
   margin: 16px 0px;
 }
@@ -23,9 +21,9 @@
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 2rem;
   color: #ffffff;
-  line-height: 26px;
+  /* line-height: 2rem; */
   margin: 16px 0px;
 }
 
