@@ -1,12 +1,17 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  
   /* style.css */
 
   .container {
     width: 100%;
   }
   
+
+
+  
   /* menu-principal.css */
+
   .buscador {
     display: none;
   }
@@ -17,6 +22,9 @@
     display: inline;
     margin: 0 10px;
   }
+
+
+
 
   /* banner.css */
 
@@ -37,6 +45,9 @@
     font-size: 1.75rem;
   }
 
+
+
+
   /* porductos.css */
 
   .galeria-secc-contenido {
@@ -47,6 +58,9 @@
   .galeria-producto {
     width: 100%;
   }
+
+
+
 
   /* rodapie.css */
 
@@ -61,7 +75,7 @@
     text-align: center;
   }
   .rodapie-formulario {
-    width: 100%;
+    width: 90%;
   }
   
 }
