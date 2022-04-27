@@ -5,11 +5,12 @@
 
   .container {
     width: 100%;
+    margin: 0;
   }
   
 
 
-  
+
   /* menu-principal.css */
 
   .buscador {
@@ -35,16 +36,19 @@
     padding-bottom: 16px;
   }
   .banner-promo {
-    padding-left: 16px;
+    width: 90%;
+    padding: 0 5%;
+    padding-top: 32px;
   }
-
-  .banner-titulo {
-    font-size: 3rem;
-  }
+   .banner-titulo {
+    font-size: 2rem;
+    /* padding-left : 16px; */
+    }
   .banner-subtitulo {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
+    /* padding-left : 16px; */
   }
-
+  
 
 
 

@@ -8,7 +8,10 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
+}
+.banner-promo {
+  padding-bottom: 16px;
 }
 .banner-titulo {
   font-family: var(--font-family);
