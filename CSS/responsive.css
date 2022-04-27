@@ -5,12 +5,11 @@
   .container {
     width: 100%;
   }
+  
+  /* menu-principal.css */
   .buscador {
     display: none;
   }
-
-  /* menu-principal.css */
-
   .lupa1 {
     display: none;
   }
@@ -52,7 +51,7 @@
   /* rodapie.css */
 
   .rodapie {
-    padding: 64px 16px;
+    padding: 64px 0px;
   }
   .rodapie-interno {
     flex-direction: column;
