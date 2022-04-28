@@ -73,6 +73,13 @@
   .rodapie-formulario {
     width: 90%;
   }
+
+  /* login.css */
+
+  .login-formulario {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -130,6 +137,25 @@
     width: 80%;
     padding: 0 10px;
   }
+
+  
+  
+  /* login.css */
+
+  .login-formulario {
+    width: 423px;
+    margin: 0 auto;
+  }
+
+
+
+  /* agregar-producto.css */
+
+  .agregar-producto-formulario {
+    width: 90%;
+    margin: 0 auto;
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
