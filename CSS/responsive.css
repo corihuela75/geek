@@ -1,15 +1,11 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  
   /* style.css */
 
   .container {
     width: 100%;
     margin: 0;
   }
-  
-
-
 
   /* menu-principal.css */
 
@@ -24,8 +20,75 @@
     margin: 0 10px;
   }
 
+  /* banner.css */
 
+  .banner {
+    min-width: 0;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 16px;
+  }
+  .banner-promo {
+    width: 90%;
+    padding: 0 5%;
+    padding-top: 32px;
+  }
+  .banner-titulo {
+    font-size: 2rem;
+    /* padding-left : 16px; */
+  }
+  .banner-subtitulo {
+    font-size: 1.5rem;
+    /* padding-left : 16px; */
+  }
 
+  /* porductos.css */
+
+  .galeria-secc-contenido {
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .galeria-producto {
+    width: 100%;
+  }
+
+  /* rodapie.css */
+
+  .rodapie {
+    padding: 64px 0px;
+  }
+  .rodapie-interno {
+    flex-direction: column;
+    align-items: center;
+  }
+  .rodapie-interno-izquierda {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rodapie-navegacion-lista {
+    text-align: center;
+  }
+  .rodapie-formulario {
+    width: 90%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  /* style.css */
+
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* menu-principal  */
+
+  .logo-buscador {
+    width: 65%;
+  }
 
   /* banner.css */
 
@@ -40,54 +103,34 @@
     padding: 0 5%;
     padding-top: 32px;
   }
-   .banner-titulo {
+  .banner-titulo {
     font-size: 2rem;
-    /* padding-left : 16px; */
-    }
+  }
   .banner-subtitulo {
     font-size: 1.5rem;
-    /* padding-left : 16px; */
   }
-  
-
-
 
   /* porductos.css */
 
   .galeria-secc-contenido {
-    /* display: grid; */
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
   }
   .galeria-producto {
     width: 100%;
   }
 
-
-
-
   /* rodapie.css */
 
-  .rodapie {
-    padding: 64px 0px;
-  }
-  .rodapie-interno {
+  .rodapie-interno-izquierda {
     flex-direction: column;
-    align-items: center;
+    width: 50%;
   }
-  .rodapie-navegacion-lista {
-    text-align: center;
+  .rodapie-navegacion {
+    width: 80%;
+    padding: 0 10px;
   }
-  .rodapie-formulario {
-    width: 90%;
-  }
-  
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {
-  
-} */
 
 /* Medium devices (landscape tablets, 768px and up) */
 /* @media only screen and (min-width: 768px) {
